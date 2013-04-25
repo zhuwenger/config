@@ -1,13 +1,16 @@
 # setting color
 export CLICOLOR=1
-export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] '
-alias grep='grep --color=always'
+export PS1="\[\033[01;33m\]zhuwenger@rMBP:\[\033[01;31m\]\W\$\[\033[00m\] "
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 alias ls='ls -G'
 
 # setting ls
-alias ll='ls -al'
 alias lt='ls -lrt'
-alias l='ls -alF'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 # setting PATH for mysql
 export PATH="/usr/local/mysql/bin:${PATH}"
@@ -26,3 +29,7 @@ export RUBYLIB=/usr/local/lib/ruby
 
 # Local bin path
 export PATH=~/bin:$PATH
+
+# Http(s) Proxy
+export http_proxy=
+export https_proxy=
