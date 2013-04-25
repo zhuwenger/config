@@ -1,0 +1,20 @@
+set autoindent
+set cindent
+set modeline
+set ruler
+set showcmd
+set nu
+set showfulltag
+set showmode
+set smartcase
+set smartindent
+set imcmdline
+set previewwindow
+set hlsearch
+syntax on
+set encoding=utf-8 fileencodings=ucs-born,utf-8,cp936
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4 
+set backspace=2
+set linebreak
